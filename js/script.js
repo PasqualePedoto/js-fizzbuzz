@@ -54,14 +54,17 @@ for (let i = 1; i <= 100; i++) {
     if (((i % 3) == 0) && ((i % 5) == 0)) {
         sentence = 'FizzBuzz';
         element.append(sentence);
+        element.classList.add('_fizz-buzz');
         console.log('ho preso FizzBuzz');
     } else if ((i % 3) == 0) {
         sentence = 'Fizz';
         element.append(sentence);
+        element.classList.add('_fizz');
         console.log('ho preso Fizz');
     } else if ((i % 5) == 0) {
         sentence = 'Buzz';
         element.append(sentence);
+        element.classList.add('_buzz');
         console.log('ho preso Buzz');
     } else {
         element.append(sentence);

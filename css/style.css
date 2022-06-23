@@ -2,17 +2,45 @@
     background-color: #083B4C;
 }
 
+/* PALETTE */
+
+._fizz {
+    background-color: #08D6A0;
+}
+
+._buzz {
+    background-color: #FFD166;
+}
+
+._fizz-buzz {
+    background-color: #F0466F;
+}
+
 .block {
     width: 80px;
     height: 80px;
     padding: 30px;
     margin: 20px;
 
-    background-color: dodgerblue;
+    background-color: #1E89B2;
 
     display: flex;
     justify-content: center;
     align-items: center;
 
-    color: white;
+    color: black;
+}
+
+/* PALETTE */
+
+._fizz {
+    background-color: #08D6A0;
+}
+
+._buzz {
+    background-color: #FFD166;
+}
+
+._fizz-buzz {
+    background-color: #F0466F;
 }

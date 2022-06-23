@@ -1,3 +1,18 @@
-body {
-    background-color: red;
+#my-body {
+    background-color: #083B4C;
+}
+
+.block {
+    width: 80px;
+    height: 80px;
+    padding: 30px;
+    margin: 20px;
+
+    background-color: dodgerblue;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
 }
